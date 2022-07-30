@@ -4,5 +4,8 @@
                    Text="所有游戏内容都在高强度开发中" />
         <TextBlock Margin="0,0,0,4" Foreground="#8C7721"
                    Text="遇到任何BUG请在群内反馈！" />
+        <local:MyCard Title="欢迎游玩模组服">
+        <local:MyButton Margin="0,8,0,8" Width="200" Height="35"
+                   Text="打开冷汗教程" EventType="打开文件" EventData="../Program/FILES/coldsweat.pdf" />
     </StackPanel>
 </local:MyCard>
